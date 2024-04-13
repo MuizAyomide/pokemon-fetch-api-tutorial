@@ -2,14 +2,37 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokemon Search</title>
 </head>
 <body>
-    
+    <div class="container">
+<div class="left-container">
     <input type="text" id="Pokemon" placeholder="Enter Pokemon name">
     <button onclick="fetchData()">Fetch Pokemon</button>
     <img src="" alt="Pokemon Sprite" id="pokemonSprite" style="display: none">
+</div>
+<div class="right-container">
+    <h3>List of Common Pokemon</h3>
+    <ul>
+        <li>Pikachu</li>
+        <li>Bulbasaur</li>
+        <li>Ivysaur</li>
+        <li>Venusaur</li>
+        <li>Charmander</li>
+        <li>Charmeleon</li>
+        <li>Charizard</li>
+        <li>Squirtle</li>
+        <li>Wartortle</li>
+        <li>Caterpie</li>
+        <li>Metapod</li>
+        <li>Butterfree</li>
+        <li>Weedle</li>
+    </ul>
+</div>
+
+    </div>
 </body>
 <script src="index.js"></script>
 </html>
