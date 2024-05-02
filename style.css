@@ -20,7 +20,7 @@
     border-radius: 5px;
     flex-grow: 60%;
     background-size: cover;
-    background: linear-gradient(95deg, rgb(216, 195, 195), rgb(158, 158, 231));
+    background: linear-gradient(95deg, rgb(216, 196, 195), rgb(158, 158, 231));
 }
 
 .left-container input{
