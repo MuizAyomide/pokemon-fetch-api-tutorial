@@ -1,7 +1,7 @@
  function fetchData(){ 
 
     const pokemonName = document.getElementById('Pokemon').value.toLowerCase();
-
+// fetch from api
     fetch(`https://pokeapi.co/api/v2/pokemon/${pokemonName}`)
 .then(response => response.json())
 .then(data => {
